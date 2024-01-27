@@ -1,0 +1,29 @@
+Pour un projet de systeme de vote en ligne, je dois avoir une liste des candidats, une liste des electeurs,
+. Les candidats doivent avoir un nom, prenom, age, date, lieu de naissance, nombre de vote
+- Les electeurs doivent avoir un nom, prenom, date, lieu de naissance. [Il vote pour une seule personne], [Il retire 
+leur vote]
+- On doit pouvoir comptabiliser le nombre d'electeurs, le nombre de votant, voir la liste des candidats et leur nombre
+de vote respectif.
+
+
+Les tables
+
+Table candidat:
+-id
+-nom
+-prenom
+-age
+-date_naissance
+-lieu_naissance
+-nombre_vote
+
+Table electeurs
+-id
+-nom
+-prenom
+-age
+-date_naissance
+-lieu_naissance
+-id_candidat_voter
+
+
